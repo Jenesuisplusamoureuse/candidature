@@ -903,3 +903,19 @@ button {
         width: calc(100% - 20px);
     }
 }
+
+#music {
+    width: 650px;
+    max-width: calc(100vw - 30px);
+}
+
+@media (max-width: 600px) {
+    #fichier {
+        width: calc(100% - 20px);
+    }
+}
+
+#music img{
+    width: 500px;
+    height: auto;
+}
